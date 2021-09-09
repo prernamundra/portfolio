@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <script src="script.js"></script>
+</head>
+
+<body>
+ <header>
+        <a href="#" class="logo">Portfolio.</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu"> 
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#skills" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+ </header>
+     <section class="banner" id="home">
+         <div class="textBx">
+             
+             <h2>Hello,<br><span> I'm Prerna Mundra</span></h2>
+             <h3>Front-End Web Developer</h3>
+             <div class="hire"><a href="#">Hire me</a></div>
+             
+         </div>
+     </section>
+     <section class="about" id="about"> 
+         <div class="heading">
+           <h2>About Me</h2>  
+         </div>
+         
+         <div class="content">
+           
+             <div class="contentBx w50">
+                 <h3>I'm a Front-End Web Developer</h3>
+                 <p>I have a flair for knowledge, be it from any source, and should that knowledge be in the fields I am pursuing, it becomes even more dear to me. Designing websites, their development, graphic design and Content writing are the trades I enjoy heartily. Apart from these, but equal in spirit, I consider myself an explorer - Learning new stuff, discovering about novel ideas inspires me, propels me to indulge in them and even more. It is a trait I look up to that has placed me where I am today.<br>
+                    <br>Developing new concepts has always been a quest of mine, which found an outlet in website development and graphic designing. Here, I could quench that innate disposition as well as showcase those skills.</p>
+             </div>
+             <div class="w50">
+                 <img src="img1.jpg" class="img1" alt="">
+             </div>
+         
+         </div>
+     </section>
+     <section class="services" id="services">
+         <div class="heading white">
+             <h2>Services</h2>
+             <p>The best ones in my domain</p>
+         </div>
+         <div class="content">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+             <div class="servicesBx">
+                 <img src="icon1.png" alt="">
+                 <h2>Web Design</h2>
+                 <p>A good web design is easy to use, aesthetically pleasing, and suits the user group.</p>
+             </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+             <div class="servicesBx">
+                <img src="icon2.png" alt="">
+                <h2>Web Development</h2>
+                <p>It can range from developing a single static page to complex web applications.</p>
+                </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+             <div class="servicesBx">
+                <img src="icon5.png" alt="">
+                <h2>Content Writing</h2>
+                <p>Every website has a specific target audience and requires the relevant content. </p>
+            </div>
+            </div>
+            <div class="col-md-3 col-xs-12 col-sm-6 col-lg-3">
+            <div class="servicesBx">
+                <img src="icon3.png" alt="">
+                <h2>Graphic Design</h2>
+                <p>Design is not just what it looks like and feels like. Design is how it works. </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    </div>
+     </section>
+        
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <div class="heading">
+            <h2>My skills</h2>
+        </div>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">My creative skills & experiences.</div>
+                    <p>Having created and worked with different templates and websites, I have a handy knowledge of designs and their implementation. The internships, workshops and projects I have done to date only enhanced these skills. Looking forward to furthermore heightening these experiences, I started building custom websites quite a while ago.<span id="dots">..</span><span id="more"> <br>I like to work with minimalist layouts that could portray the website's features in a simplistic, nevertheless appealing manner. Commitment is the virtue I admire; any project I take up shall not be left incomplete, nor shall it fall short of anyone's expectations.</span></p>
+                    <button onclick="myFunction()" id="readmoreBtn">Read More</button>
+                </div>
+                <div class="column right">
+                    <div class="bars">
+                        <div class="info">
+                            <span>HTML</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="line html"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>CSS</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="line css"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>JavaScript</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="line js"></div>
+                    </div>                                   
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+            <p>Let's Connect for Work</p>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Get In Touch</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="text">
+                                <h3>Address</h3>
+                                <p>Jaipur, Rajasthan
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                            <div class="text">
+                                <h3>Phone No.</h3>
+                                <p>+91 86046-22776
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope"></i>
+                            <div class="text">
+                                <h3>Mail ID</h3>
+                                <p>prernamundra2000@gmail.com
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" name="" placeholder="Full Name">
+                         <input type="email" name="" placeholder="Email">
+                         <textarea placeholder="Your Message"></textarea>
+                         <div class="combine">
+                         <input type="submit" value="Send">
+                         <div class="media-icons">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                          </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+    </section>
+  
+     <div class="copyright">
+         <p> Prerna Mundra | &#169; All Rights Reserved </p>
+     </div>
+
+
+</body>
+</html> 
